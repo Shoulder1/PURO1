@@ -1,0 +1,140 @@
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -16px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.col-25 {
+  -ms-flex: 25%; 
+  flex: 25%;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+  font-family: 'Rajdhani', sans-serif;
+}
+h3{
+  font-size: 50px;
+}
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;    
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.btn {
+  color: black;
+  background-color: #2741d3;
+  padding: 12px;
+  font-size: 48px;
+  border-radius: 70px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  width: 20%;
+  border-radius: 3px;
+  font-family: 'Rajdhani', sans-serif;
+  animation-name: animation;
+  animation-duration: 6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.btn:hover {
+  background-color: #2741d3;
+  color: white;
+  transition: width 1s height 1s;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+span.price {
+  float: right;
+  color: grey;
+  font-family: 'Rajdhani', sans-serif;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+  background-color: rgba(85, 85, 85, 0.200);
+  font-family: 'Rajdhani', sans-serif;
+}
+.slidecontainer{
+  text-align: center;
+  display: block;
+  border: 3px solid #ccc;
+  box-sizing: 8px;
+  width: 200px;
+  margin-left: 820px;
+  font-family: 'Rajdhani', sans-serif;
+}
+.logga {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;  
+  align-items: center;
+  height: 10%;
+  top: 30px;
+}
+.bg-img {
+  background-image: url("https://www.d-energi.com/wp-content/uploads/2018/07/water-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 190px;
+}
+* {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+@keyframes animation {
+  from {background-color:#f1f1f1;}
+  to {background-color: rgb(93, 90, 236);}
+}

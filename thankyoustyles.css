@@ -1,0 +1,39 @@
+.logga {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;  
+    align-items: center;
+    height: 10%;
+    top: 30px;
+}
+.bg-img {
+    background-image: url("https://www.d-energi.com/wp-content/uploads/2018/07/water-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 190px;
+}
+div.animate-bottom{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+}
+.buttonhome{
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 28px;
+    border-radius: 55px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    transition: 1s;
+    margin-left: 20px;
+}
+.buttonhome:hover{
+    background-color: #ddd;
+    color: black;
+    transition: width 1s height 1s;
+
+}
+
